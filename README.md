@@ -1,9 +1,9 @@
 # To run code in your local host
 
-1. Clone the repo
-2. cd wobot-task
-3.npm install
-4.npm start
+1. Clone the repo<br/>
+2. cd wobot-task<br/>
+3.npm install<br/>
+4.npm start<br/>
 boom💥💥💥 it start on your localhost:3000
 
 # Getting Started with Create React App
