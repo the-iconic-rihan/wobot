@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&family=Tinos:wght@400;700&display=swap");
+:root {
+  --font-family: "Tinos", serif;
+}
+.main-container {
+  height: 100%;
+  padding: 1rem 1rem 2rem 1rem;
+}
+/* brders */
+.auth-root {
+  height: auto;
+  min-height: 100vh;
+  background-color: #f9f9f9;
+  position: relative;
+  overflow: hidden;
+}
+.box-rotate-fixed {
+  position: absolute;
+  height: 420px;
+  left: 0;
+  right: 0;
+  top: 34%;
+  bottom: 0;
+  z-index: 0;
+  transform: skewY(-30deg);
+  -webkit-transform: skewY(-30deg);
+}
+.box-rotate-fixed .box-strip {
+  position: absolute;
+  height: 400px;
+}
+.box-rotate-fixed .box-strip-middle {
+  width: 100%;
+}
+
+.box-strip-top-right {
+  right: 0;
+  width: 100%;
+  max-width: 44%;
+  border-bottom: 8px solid #e0e8fc;
+}
+
+.box-strip-bottom-left {
+  left: 0;
+  width: 100%;
+  max-width: 44%;
+  border-top: 8px solid #e0e8fc;
+}
+
+/* form css */
+.Auth-form-container {
+  font-family: var(--font-family);
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.Auth-form {
+  width: auto;
+  box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.Auth-form-content {
+  padding-left: 12%;
+  padding-right: 12%;
+}
+.Auth-form-logo {
+  margin: auto;
+  width: 70px;
+}
+.logo {
+  display: inline-grid;
+  width: 200px;
+  margin: auto 3rem;
+}
+.logo1 {
+  width: 80%;
+}
+.Auth-form-title {
+  text-align: center;
+  margin: auto 2rem;
+  font-size: 1.89rem;
+  color: rgb(34, 34, 34);
+  font-weight: 600;
+}
+
+label {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(34, 34, 34);
+}
+
+.footer {
+  margin-top: 8rem;
+}
+
+/* responsiveness */
+@media only screen and (max-width: 768px) {
+  .Auth-form {
+    width: 80%;
+  }
+  .Auth-form-title {
+    font-size: 24px;
+    margin: auto;
+  }
+  .logo {
+    display: block;
+    margin: auto;
+  }
+  .box-rotate-fixed {
+    display: none;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .Auth-form {
+    width: 100%;
+  }
+}
