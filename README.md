@@ -6,6 +6,7 @@
 4.npm start<br/>
 boom💥💥💥 it start on your localhost:3000
 
+# visit at : https://basicuserinfo.netlify.app/
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
